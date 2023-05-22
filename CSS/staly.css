@@ -1,0 +1,163 @@
+.body{
+    font-family: 'Playfair Display', serif;
+}
+.navhead:hover{
+    background-color: rgb(216, 216, 245);
+    color: blue;
+    border-radius: 25px;
+}
+.word .Our-purpose{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.FeaturesCard .card{
+    margin-left: 12%;
+    border: none;
+    width: 80%;
+}
+.FeaturesCard .card:hover{
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+.FeaturesCard .card img{
+    width: 100px;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+.stepsInvest img{
+    margin-left: 35%;
+}
+.steps .payday{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.buttonType button:hover{
+    background-color: rgb(63, 29, 216);
+    color: white;
+}
+.overColum{
+    height: 400px;
+    overflow-y: scroll;
+    justify-content: center;
+}
+.overColum ul li{
+    width: 100%;
+}
+.investmentPlan .InvestWithUs{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.InvestmentPlan .card{
+    margin-left: 12%;
+    border-color: blue;
+    width: 90%;
+    height: 100%;
+}
+.InvestmentPlan .card:hover{
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+.InvestmentPlan .card img{
+    width: 100px;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+.PaymentWeAccept{
+    width: 75%;
+    margin-left: 12%;
+    border-color: #fff;
+}
+.PaymentWeAccept p{
+    width: 70%;
+}
+.PaymentWeAccept .button{
+    margin-top: 10%;
+    background-color: red;
+}
+.coinType img{
+    width: 45px;
+    margin-left: 20px;
+}
+.coinType img:hover{
+    width: 66px;
+}
+.Investing-com{
+    margin-left: 7%;
+    width: 85%;
+}
+
+@media only screen and (max-width: 800px) {
+    .high {
+      text-align: center;
+    }
+    .highHolder button{
+        text-align: center;
+        margin: auto;
+        display: flex;
+    }
+    .highHolder .firstButton{
+        padding-top: 24px;
+    }
+    .offer{
+        text-align: center;
+    }
+    .word .Our-purpose{
+        width: 100%;
+    }
+    .FeaturesCard .card{
+        margin-left: 12%;
+        border: none;
+        width: 80%;
+        box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    }
+    .steps .payday{
+        width: 100%;
+    }
+    .buttonType button{
+        background-color: rgb(63, 29, 216);
+        color: #fff;
+    }
+    .overColum{
+        margin:0;
+        padding:0;
+        height:400px;
+        width:400px;
+        position:relative;
+        overflow:auto;
+    }
+    .overColum ul li{
+        width: 100%;
+    }
+    .investmentPlan .InvestWithUs{
+        width: 100%;
+    }
+    .InvestmentPlan .card{
+        margin-left: 8%;
+        border-color: blue;
+        width: 90%;
+        height: 100%;
+    }
+    .InvestmentPlan button{
+        text-align: center;
+        margin: auto;
+        display: flex;
+    }
+    .PaymentWeAccept{
+        width: 95%;
+        margin-left: 13px;
+        border-color: #fff;
+        text-align: center;
+    }
+    .PaymentWeAccept p{
+        width: 100%;
+    }
+    .PaymentWeAccept .button{
+        margin-top: 10%;
+        background-color: blue;
+    }
+    .coinType img{
+        width: 40px;
+    }
+}
+  
