@@ -1,0 +1,49 @@
+.body{
+    font-family: 'Playfair Display', serif;
+}
+.navhead:hover{
+    background-color: rgb(216, 216, 245);
+    color: blue;
+    border-radius: 25px;
+}
+.aboutimg {
+    width: 50%;
+}
+.about .aboutinfinity{
+    width: 40%;
+    margin-left: 10%;
+}
+.aboutimg02 {
+    width: 50%;
+    margin-left: 25px;
+}
+.about .aboutinfinity02{
+    width: 40%;
+    margin-left: 20px;
+}
+.endingpage{
+    justify-content: space-between;
+}
+.endingpage a{
+    text-decoration: none;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 800px){
+    .aboutimg {
+        display: none;
+    }
+    .about .aboutinfinity{
+        width: 100%;
+        text-align: center;
+        margin-left: 2px;
+    }
+    .aboutimg02 {
+        display: none;
+    }
+    .about .aboutinfinity02{
+        width: 100%;
+        text-align: center;
+        margin-left: 2px;
+    }
+}

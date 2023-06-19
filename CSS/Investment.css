@@ -1,0 +1,52 @@
+.body{
+    font-family: 'Playfair Display', serif;
+}
+.navhead:hover{
+    background-color: rgb(216, 216, 245);
+    color: blue;
+    border-radius: 25px;
+}
+.investmentPlan .InvestWithUs{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.InvestmentPlan .card{
+    margin-left: 12%;
+    border-color: blue;
+    width: 90%;
+    height: 100%;
+}
+.InvestmentPlan .card:hover{
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+.InvestmentPlan .card img{
+    width: 100px;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+.endingpage{
+    justify-content: space-between;
+}
+.endingpage a{
+    text-decoration: none;
+    text-align: justify;
+}
+
+
+@media only screen and (max-width: 800px){
+    .investmentPlan .InvestWithUs{
+        width: 100%;
+    }
+    .InvestmentPlan .card{
+        margin-left: 8%;
+        border-color: blue;
+        width: 90%;
+        height: 100%;
+    }
+    .InvestmentPlan button{
+        text-align: center;
+        margin: auto;
+        display: flex;
+    }
+}

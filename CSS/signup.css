@@ -1,0 +1,29 @@
+.body{
+    font-family: 'Playfair Display', serif;
+}
+.navhead:hover{
+    background-color: rgb(216, 216, 245);
+    color: blue;
+    border-radius: 25px;
+}
+.formINput{
+    margin-left: 15%;
+    width: 25%;
+}
+.endingpage{
+    justify-content: space-between;
+}
+.endingpage a{
+    text-decoration: none;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 800px) {
+    .formText{
+        display: none;
+    }
+    .formINput{
+        width: 100%;
+        margin-left: 2%;
+    }
+}
